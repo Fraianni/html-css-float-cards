@@ -4,12 +4,68 @@
     padding: 0px;
 }
 
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Sezione all'interno del container*/
+.container>section {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Titolo pagina */
 #title {
     color: hotpink;
     font-size: 2em;
-    margin: 0 auto;
     text-align: center;
-    padding: 10px 0px;
-    font-family: 'Roboto', sans-serif;
+    padding: 40px 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 
+/* Sottotitolo pagina*/
+#sub-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Scheletro etichetta*/
+section>.float-left {
+    padding-right: 20px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+
+/* Testo dell'etichetta*/
+.text {
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Foto dell'etichetta*/
+.pht {
+    width: 100px;
+    height: 100px;
+}
+
+.cards1>div {
+    width: calc(100% / 3 - 20px);
+}
+
+.mail {
+    color: aqua;
+}
+
+h5 {
+    padding-top: 5px;
 }
