@@ -58,14 +58,18 @@ section>.float-left {
     height: 100px;
 }
 
+/* Distribuzione in orizzontale etichette */
 .cards1>div {
     width: calc(100% / 3 - 20px);
 }
+
+/* Classe per dare il colore voluto alle mail nelle etichette*/
 
 .mail {
     color: aqua;
 }
 
+/* Distanziamento testo in ogni singola etichetta*/
 h5 {
     padding-top: 5px;
 }
