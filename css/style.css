@@ -16,7 +16,7 @@
 
 
 /* Sezione all'interno del container*/
-.container>section {
+.container {
     margin: 0 auto;
     max-width: 1200px;
 }
