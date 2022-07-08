@@ -15,7 +15,7 @@
 }
 
 
-/* Sezione all'interno del container*/
+/*  container*/
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -51,7 +51,7 @@ section>.float-left {
 
 /* Testo dell'etichetta*/
 .text {
-    margin-top: 10px;
+    margin-top: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
