@@ -46,13 +46,15 @@ section>.float-left {
     background-color: black;
     color: white;
     margin-right: 20px;
-    box-shadow: 10px 10px 5px #000000;
+    box-shadow: 2px 2px 10px #000000;
 }
 
 /* Testo dell'etichetta*/
 .text {
-    margin-top: 15px;
+    padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+    line-height: 1.5rem;
 }
 
 /* Foto dell'etichetta*/
